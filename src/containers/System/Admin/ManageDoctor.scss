@@ -1,0 +1,57 @@
+
+.manage-doctor-container {
+    padding: 5px;
+
+    .manage-doctor-title {
+        text-align:  center;
+        margin: 15px 0;
+        font-size: 20px;
+        text-transform:  uppercase;
+        font-weight: 600;
+    }
+
+    .save-infor-doctor {
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-bottom: 30px;
+        border: none;
+        outline: none;
+        padding: 5px;
+        background: orange;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .create-infor-doctor {
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-bottom: 30px;
+        border: none;
+        outline: none;
+        padding: 5px;
+        color: white;
+        background: rgb(11, 93, 216);
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .more-infor {
+        display: flex;
+        gap: 15px;
+        padding-bottom: 15px;
+
+        .content-left {
+            width: 34% !important;
+        }
+
+        .content-right {
+            width: 66% !important;
+        }
+    }
+}
